@@ -123,7 +123,6 @@ class CharDecoder(nn.Module):
             h_prev = h_new #update h prev & new
             c_prev = c_new #update c prev & new
 
-        print(decodedWords)
         return decodedWords
 
         ### END YOUR CODE
